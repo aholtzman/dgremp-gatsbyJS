@@ -56,7 +56,6 @@ const NavList = () => {
   );
 }
 
-
 const BG = styled.div`
   background: url(${require('../images/galleryFR/bg.jpg')}) no-repeat center;
   background-size: cover;
@@ -66,8 +65,8 @@ const BG = styled.div`
   grid-templete-rows: 1fr 3fr 1fr;
 
   @media (max-width: 850px) {
-  background: url(${require('../images/galleryFR/bg2.jpg')}) no-repeat center;
-  grid-template-columns: 1fr 3fr 1fr;
+    background: url(${require('../images/galleryFR/bg2.jpg')}) no-repeat center;
+    grid-template-columns: 1fr 3fr 1fr;
   }
 `
 

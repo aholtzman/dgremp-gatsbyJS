@@ -1,6 +1,5 @@
 import React from 'react'
 import TextWrap from '../components/TextWrap'
-import NavBar from '../components/NavBar'
 import styled from 'styled-components'
 
 const Intro = styled.div`
