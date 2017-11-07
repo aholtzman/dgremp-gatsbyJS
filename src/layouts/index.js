@@ -27,7 +27,7 @@ const Head = styled.div`
 
 const Header = () => (
   <Head>
-    <L>David Gremp</L>
+    <L to='/'>David Gremp</L>
   </Head>
 )
 
