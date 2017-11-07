@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const List = styled.div`
   text-align: center;
@@ -20,7 +21,7 @@ const List = styled.div`
   }
 `
 
-const L = styled(Link)`
+const Link = styled(NavLink)`
   color: white;
   font-size: 20px;
   text-decoration: none;
@@ -45,12 +46,12 @@ const NavList = () => {
   return(
     <List>
     <GalleryList>
-      <L to='/Family-run'>Family Run</L>
-      <L to='/Downstate'>Downstate</L>
-      <L to='/Chicago7879'>Chicago 78/79</L>
-      <L to='/CruiseControl'>Cruise Control</L>
+      <Link to='/Family-run'>Family Run</Link>
+      <Link to='/Downstate'>Downstate</Link>
+      <Link to='/Chicago7879'>Chicago 78/79</Link>
+      <Link to='/CruiseControl'>Cruise Control</Link>
     </GalleryList>
-      <L to='/About'>About</L>
+      <Link to='/About'>About</Link>
     </List>
   );
 }

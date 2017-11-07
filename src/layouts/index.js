@@ -17,12 +17,14 @@ const L = styled(Link)`
 `
 
 const Head = styled.div`
+  border-bottom: 1px solid dimgrey;
   background-color: rgba(0, 0, 0, .8);
-  width: 100vw;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  height: 50px;
+  position: fixed;
+  padding-top: 8px;
+  top: 0;
+  width: 100%;
 `
 
 const Header = () => (
