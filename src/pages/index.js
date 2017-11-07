@@ -47,7 +47,7 @@ const NavList = () => {
     <List>
     <GalleryList>
       <L to='/Family-run'>Family Run</L>
-      <L to='/Downstate'>Downstate</L>
+      <L to='/DownState'>Downstate</L>
       <L to='/Chicago7879'>Chicago 78/79</L>
       <L to='/CruiseControl'>Cruise Control</L>
     </GalleryList>
