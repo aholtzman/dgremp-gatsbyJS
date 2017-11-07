@@ -1,7 +1,61 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import NavList from '../components/NavList'
+
+const List = styled.div`
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 250px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, .7);
+  border: 1px solid dimgrey;
+  grid-column-start: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: center;
+
+  @media (max-width: 850px) {
+    grid-column-start: 2;
+  }
+`
+
+const L = styled(Link)`
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 200%;
+
+  &:hover {
+    color: grey;
+  }
+`
+
+const GalleryList = styled.div`
+  width: 200px;
+  border-bottom: 1px solid dimgrey;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+`
+
+const NavList = () => {
+  return(
+    <List>
+    <GalleryList>
+      <L to='/Family-run'>Family Run</L>
+      <L to='/Downstate'>Downstate</L>
+      <L to='/Chicago7879'>Chicago 78/79</L>
+      <L to='/CruiseControl'>Cruise Control</L>
+    </GalleryList>
+      <L to='/About'>About</L>
+    </List>
+  );
+}
+
 
 const BG = styled.div`
   background: url(${require('../images/galleryFR/bg.jpg')}) no-repeat center;
@@ -19,10 +73,7 @@ const BG = styled.div`
 
 const IndexPage = () => (
   <BG>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <NavList />
   </BG>
 )
 
