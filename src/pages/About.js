@@ -1,5 +1,5 @@
 import React from 'react'
-import TextWrap from './components/TextWrap'
+import TextWrap from '../components/TextWrap'
 import styled from 'styled-components'
 
 const Intro = styled.div`
@@ -30,7 +30,7 @@ const About = () => {
            <p>David has been actively involved with photography for more than 40 years. He received his M.A. from Southern Illinois University, Carbondale in 1978, and has taught photography classes at Prairie State College, Chicago Heights, IL, and Columbia College, Chicago, IL. He is currently an adjunct faculty member at Prairie State College. David served as an artist-in-residence with the Chicago Council on Fine Arts from September, 1978 to March, 1980. He received a humanities grant from the Rockefeller Foundation in 1980 and a completion grant from the Illinois Arts Council in 1982. He also worked as a writer and editor at Calumet Photographic Inc., Chicago, from 1981 through 2014. </p>
          </div>
          <Image>
-           <img src={require('./images/assets/dgPortrait.jpg')} alt='portrait of the artist' />
+           <img src={require('../images/assets/dgPortrait.jpg')} alt='portrait of the artist' />
            <p>photo: James Payne</p>
          </Image>
      </Intro>

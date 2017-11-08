@@ -1,7 +1,7 @@
 import React from 'react';
-import TextWrap from './components/TextWrap'
-import PhotoGallery from './components/PhotoGallery'
-import data from './images/CC_data'
+import TextWrap from '../components/TextWrap'
+import PhotoGallery from '../components/PhotoGallery'
+import data from '../images/CC_data'
 
 const CruiseControl = () => (
   <div>
