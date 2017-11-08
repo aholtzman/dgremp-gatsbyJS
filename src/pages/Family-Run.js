@@ -1,7 +1,7 @@
 import React from 'react';
-import TextWrap from '../components/TextWrap'
-import PhotoGallery from '../components/PhotoGallery'
-import data from '../images/FR_data'
+import TextWrap from './components/TextWrap'
+import PhotoGallery from './components/PhotoGallery'
+import data from './images/FR_data'
 
 const FamilyRun = () => (
   <div>

@@ -1,7 +1,7 @@
 import React from 'react'
-import TextWrap from '../components/TextWrap'
-import PhotoGallery from '../components/PhotoGallery'
-import data from '../images/7879_data'
+import TextWrap from './components/TextWrap'
+import PhotoGallery from './components/PhotoGallery'
+import data from './images/7879_data'
 
 const Chicago7879 = () => (
   <div>
